@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import url("fonts/AvantGarde/stylesheet.css");
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: calc(100% - 20px);
+    height: 70px;
+    background-color: #e681e0;
+    border-bottom: 2px solid silver;
+    padding: 10px;
+    font-family: 'ITC Avant Garde Std Bk', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #110410;
+    margin-bottom: 20px;
+    float: left;
+}
+
+
+article, aside{
+    margin-top: 20px; 
+    background-color: #d8d8d8;
+    min-height: 400px;
+    border-radius: 7px;
+    border: 0.2px solid #2b0021;
+    box-sizing: border-box;
+    float:left;
+    padding: 5px;
+}
+
+aside{
+    width: 25%;
+}
+
+article{
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.spanBlock{
+    display: block;
+    height: 50px;
+    width: 70px;
+    border: 2px solid rgb(17, 17, 17);
+    overflow: scroll;
+}
+
+#blockTest{
+    background-color: lightcyan;
+    height: 1130px;
+    width: 70%;
+    border: 2px dotted #800a0a;
+    position:relative;
+    right: -15%;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+footer{
+    width: calc(100% - 20px);
+    height: 70px;
+    margin-top: 20px; 
+    background-color: #e681e0;
+    border-top: 2px solid silver;
+    padding: 10px;
+    font-family: 'ITC Avant Garde Std Bk', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #110410;
+    float: left;
+}
+
+aside ul{
+    width: 80%;
+    margin-left: 20%;
+    list-style-position: outside;
+    list-style-type: lower-greek;
+    font-family: 'ITC Avant Garde Std Bk', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+}
+
+#sTest{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    background-color: blueviolet;
+}
+
+.testS{
+    width: 30px;
+    height: 30px;
+    background-color: cornflowerblue;
+    color: darkblue;
+    position: relative;
+    left: 150px;
+    bottom: 60px;
+    
+}
+
+#sTestS{
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+}
+#Sss{
+    width: 30px;
+    height: 30px;
+    background-color: cornflowerblue;
+}
